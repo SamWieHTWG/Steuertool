@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Write(c:/repos/Steuertool/project/**)",
+      "Edit(c:/repos/Steuertool/project/**)",
+      "Bash(yarn add:*)",
+      "Bash(yarn build:*)",
+      "Bash(cmd /c deploy.cmd)",
+      "Bash(cmd /c \"C:\\\\repos\\\\Steuertool\\\\project\\\\deploy.cmd\")"
+    ]
+  }
+}
