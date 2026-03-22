@@ -1,0 +1,647 @@
+{
+  "meta": {
+    "einheit": "Mrd. EUR / Jahr",
+    "quelle": "Kapital.xlsx",
+    "labels": {
+      "einkommen": {
+        "lohn": "Lohn / Gehalt",
+        "gewerbe_vv": "Gewerbe / V&V",
+        "kap_ertrag": "Kapitalertrag",
+        "erbschaften": "Erbschaften",
+        "transfers": "Transfers"
+      },
+      "steuern": {
+        "mwst": "Umsatzsteuer",
+        "est": "Einkommensteuer",
+        "kv_pv": "Sozialabgaben (KV/PV)",
+        "kap_st": "Kapitalertragsteuer",
+        "erbe_st": "Erbschaftsteuer",
+        "sonst": "Sonstiges"
+      }
+    }
+  },
+  "haupttabelle": [
+    {
+      "gruppe": "D1",
+      "zufluss": 107.4,
+      "abgaben": 18.7,
+      "einkommen": {
+        "lohn": 40.8,
+        "gewerbe_vv": 0.8,
+        "kap_ertrag": 0.2,
+        "erbschaften": 0.6,
+        "transfers": 65.0
+      },
+      "steuern": {
+        "mwst": 10.0,
+        "est": 0.3,
+        "kv_pv": 5.1,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 3.3
+      }
+    },
+    {
+      "gruppe": "D2",
+      "zufluss": 109.7,
+      "abgaben": 21.8,
+      "einkommen": {
+        "lohn": 71.6,
+        "gewerbe_vv": 2.0,
+        "kap_ertrag": 0.5,
+        "erbschaften": 0.6,
+        "transfers": 35.0
+      },
+      "steuern": {
+        "mwst": 11.6,
+        "est": 1.4,
+        "kv_pv": 7.6,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 1.2
+      }
+    },
+    {
+      "gruppe": "D3",
+      "zufluss": 128.3,
+      "abgaben": 24.9,
+      "einkommen": {
+        "lohn": 102.1,
+        "gewerbe_vv": 3.0,
+        "kap_ertrag": 0.4,
+        "erbschaften": 0.8,
+        "transfers": 22.0
+      },
+      "steuern": {
+        "mwst": 11.8,
+        "est": 3.4,
+        "kv_pv": 8.0,
+        "kap_st": 0.0,
+        "erbe_st": 0.1,
+        "sonst": 1.6
+      }
+    },
+    {
+      "gruppe": "D4",
+      "zufluss": 153.8,
+      "abgaben": 28.5,
+      "einkommen": {
+        "lohn": 132.6,
+        "gewerbe_vv": 4.5,
+        "kap_ertrag": 0.7,
+        "erbschaften": 1.0,
+        "transfers": 15.0
+      },
+      "steuern": {
+        "mwst": 12.0,
+        "est": 6.2,
+        "kv_pv": 8.1,
+        "kap_st": 0.0,
+        "erbe_st": 0.1,
+        "sonst": 2.1
+      }
+    },
+    {
+      "gruppe": "D5",
+      "zufluss": 184.0,
+      "abgaben": 31.1,
+      "einkommen": {
+        "lohn": 162.6,
+        "gewerbe_vv": 5.0,
+        "kap_ertrag": 1.4,
+        "erbschaften": 3.0,
+        "transfers": 12.0
+      },
+      "steuern": {
+        "mwst": 12.1,
+        "est": 8.6,
+        "kv_pv": 7.5,
+        "kap_st": 0.1,
+        "erbe_st": 0.2,
+        "sonst": 2.6
+      }
+    },
+    {
+      "gruppe": "D6",
+      "zufluss": 226.0,
+      "abgaben": 34.2,
+      "einkommen": {
+        "lohn": 202.2,
+        "gewerbe_vv": 11.0,
+        "kap_ertrag": 2.8,
+        "erbschaften": 0.0,
+        "transfers": 10.0
+      },
+      "steuern": {
+        "mwst": 12.6,
+        "est": 10.5,
+        "kv_pv": 7.5,
+        "kap_st": 0.2,
+        "erbe_st": 0.2,
+        "sonst": 3.2
+      }
+    },
+    {
+      "gruppe": "D7",
+      "zufluss": 272.0,
+      "abgaben": 37.3,
+      "einkommen": {
+        "lohn": 240.4,
+        "gewerbe_vv": 15.0,
+        "kap_ertrag": 5.6,
+        "erbschaften": 2.0,
+        "transfers": 9.0
+      },
+      "steuern": {
+        "mwst": 13.2,
+        "est": 12.5,
+        "kv_pv": 6.6,
+        "kap_st": 0.6,
+        "erbe_st": 0.4,
+        "sonst": 4.0
+      }
+    },
+    {
+      "gruppe": "D8",
+      "zufluss": 321.5,
+      "abgaben": 37.3,
+      "einkommen": {
+        "lohn": 277.1,
+        "gewerbe_vv": 18.5,
+        "kap_ertrag": 8.9,
+        "erbschaften": 6.0,
+        "transfers": 11.0
+      },
+      "steuern": {
+        "mwst": 13.6,
+        "est": 14.8,
+        "kv_pv": 2.1,
+        "kap_st": 1.1,
+        "erbe_st": 1.5,
+        "sonst": 4.2
+      }
+    },
+    {
+      "gruppe": "D9",
+      "zufluss": 411.5,
+      "abgaben": 38.9,
+      "einkommen": {
+        "lohn": 327.3,
+        "gewerbe_vv": 27.0,
+        "kap_ertrag": 21.2,
+        "erbschaften": 32.0,
+        "transfers": 4.0
+      },
+      "steuern": {
+        "mwst": 14.3,
+        "est": 15.2,
+        "kv_pv": 0.0,
+        "kap_st": 1.9,
+        "erbe_st": 2.2,
+        "sonst": 5.3
+      }
+    },
+    {
+      "gruppe": "91–99 %",
+      "zufluss": 527.0,
+      "abgaben": 123.5,
+      "einkommen": {
+        "lohn": 330.0,
+        "gewerbe_vv": 62.5,
+        "kap_ertrag": 37.5,
+        "erbschaften": 95.0,
+        "transfers": 2.0
+      },
+      "steuern": {
+        "mwst": 8.5,
+        "est": 45.0,
+        "kv_pv": 10.0,
+        "kap_st": 12.0,
+        "erbe_st": 3.0,
+        "sonst": 45.0
+      }
+    },
+    {
+      "gruppe": "Top 1 %",
+      "zufluss": 423.0,
+      "abgaben": 118.0,
+      "einkommen": {
+        "lohn": 15.0,
+        "gewerbe_vv": 125.0,
+        "kap_ertrag": 82.5,
+        "erbschaften": 200.0,
+        "transfers": 0.5
+      },
+      "steuern": {
+        "mwst": 9.8,
+        "est": 40.0,
+        "kv_pv": 5.0,
+        "kap_st": 32.5,
+        "erbe_st": 4.1,
+        "sonst": 26.6
+      }
+    }
+  ],
+  "perzentile": [
+    {
+      "gruppe": "0–5%",
+      "zufluss": 34.57,
+      "abgaben": 9.31,
+      "einkommen": {
+        "lohn": 1.88,
+        "gewerbe_vv": 0.19,
+        "kap_ertrag": 0.07,
+        "erbschaften": 0.05,
+        "transfers": 32.38
+      },
+      "steuern": {
+        "mwst": 5.76,
+        "est": 0.0,
+        "kv_pv": 1.5,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 2.05
+      }
+    },
+    {
+      "gruppe": "5–10%",
+      "zufluss": 36.165,
+      "abgaben": 14.1,
+      "einkommen": {
+        "lohn": 7.52,
+        "gewerbe_vv": 0.38,
+        "kap_ertrag": 0.14,
+        "erbschaften": 0.125,
+        "transfers": 28.0
+      },
+      "steuern": {
+        "mwst": 7.04,
+        "est": 0.0,
+        "kv_pv": 4.5,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 2.56
+      }
+    },
+    {
+      "gruppe": "10–15%",
+      "zufluss": 41.71,
+      "abgaben": 20.39,
+      "einkommen": {
+        "lohn": 18.8,
+        "gewerbe_vv": 0.57,
+        "kap_ertrag": 0.21,
+        "erbschaften": 0.25,
+        "transfers": 21.88
+      },
+      "steuern": {
+        "mwst": 8.32,
+        "est": 0.0,
+        "kv_pv": 9.0,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 3.07
+      }
+    },
+    {
+      "gruppe": "15–20%",
+      "zufluss": 51.885,
+      "abgaben": 27.35,
+      "einkommen": {
+        "lohn": 33.84,
+        "gewerbe_vv": 0.76,
+        "kap_ertrag": 0.28,
+        "erbschaften": 0.375,
+        "transfers": 16.63
+      },
+      "steuern": {
+        "mwst": 9.28,
+        "est": 0.36,
+        "kv_pv": 14.25,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 3.46
+      }
+    },
+    {
+      "gruppe": "20–25%",
+      "zufluss": 62.055,
+      "abgaben": 33.58,
+      "einkommen": {
+        "lohn": 47.0,
+        "gewerbe_vv": 0.95,
+        "kap_ertrag": 0.35,
+        "erbschaften": 0.625,
+        "transfers": 13.13
+      },
+      "steuern": {
+        "mwst": 9.92,
+        "est": 1.07,
+        "kv_pv": 18.75,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 3.84
+      }
+    },
+    {
+      "gruppe": "25–30%",
+      "zufluss": 73.48,
+      "abgaben": 39.7,
+      "einkommen": {
+        "lohn": 60.16,
+        "gewerbe_vv": 1.33,
+        "kap_ertrag": 0.49,
+        "erbschaften": 1.0,
+        "transfers": 10.5
+      },
+      "steuern": {
+        "mwst": 10.56,
+        "est": 1.79,
+        "kv_pv": 23.25,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 4.1
+      }
+    },
+    {
+      "gruppe": "30–35%",
+      "zufluss": 84.45,
+      "abgaben": 45.5,
+      "einkommen": {
+        "lohn": 71.44,
+        "gewerbe_vv": 1.71,
+        "kap_ertrag": 0.7,
+        "erbschaften": 1.5,
+        "transfers": 9.1
+      },
+      "steuern": {
+        "mwst": 11.52,
+        "est": 2.5,
+        "kv_pv": 27.0,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 4.48
+      }
+    },
+    {
+      "gruppe": "35–40%",
+      "zufluss": 95.445,
+      "abgaben": 51.66,
+      "einkommen": {
+        "lohn": 82.72,
+        "gewerbe_vv": 2.09,
+        "kap_ertrag": 0.98,
+        "erbschaften": 2.125,
+        "transfers": 7.53
+      },
+      "steuern": {
+        "mwst": 12.48,
+        "est": 3.57,
+        "kv_pv": 30.75,
+        "kap_st": 0.0,
+        "erbe_st": 0.0,
+        "sonst": 4.86
+      }
+    },
+    {
+      "gruppe": "40–45%",
+      "zufluss": 105.34,
+      "abgaben": 58.33,
+      "einkommen": {
+        "lohn": 92.12,
+        "gewerbe_vv": 2.66,
+        "kap_ertrag": 1.26,
+        "erbschaften": 3.0,
+        "transfers": 6.3
+      },
+      "steuern": {
+        "mwst": 13.12,
+        "est": 5.36,
+        "kv_pv": 34.5,
+        "kap_st": 0.1,
+        "erbe_st": 0.0,
+        "sonst": 5.25
+      }
+    },
+    {
+      "gruppe": "45–50%",
+      "zufluss": 115.99,
+      "abgaben": 65.91,
+      "einkommen": {
+        "lohn": 101.52,
+        "gewerbe_vv": 3.23,
+        "kap_ertrag": 1.61,
+        "erbschaften": 4.2,
+        "transfers": 5.43
+      },
+      "steuern": {
+        "mwst": 14.08,
+        "est": 7.85,
+        "kv_pv": 38.25,
+        "kap_st": 0.1,
+        "erbe_st": 0.0,
+        "sonst": 5.63
+      }
+    },
+    {
+      "gruppe": "50–55%",
+      "zufluss": 124.55,
+      "abgaben": 74.33,
+      "einkommen": {
+        "lohn": 109.04,
+        "gewerbe_vv": 4.18,
+        "kap_ertrag": 2.1,
+        "erbschaften": 4.500000000000001,
+        "transfers": 4.73
+      },
+      "steuern": {
+        "mwst": 15.04,
+        "est": 11.07,
+        "kv_pv": 42.0,
+        "kap_st": 0.2,
+        "erbe_st": 0.0,
+        "sonst": 6.02
+      }
+    },
+    {
+      "gruppe": "55–60%",
+      "zufluss": 135.1,
+      "abgaben": 83.03,
+      "einkommen": {
+        "lohn": 116.56,
+        "gewerbe_vv": 5.32,
+        "kap_ertrag": 2.94,
+        "erbschaften": 6.25,
+        "transfers": 4.03
+      },
+      "steuern": {
+        "mwst": 16.32,
+        "est": 14.99,
+        "kv_pv": 45.0,
+        "kap_st": 0.32,
+        "erbe_st": 0.0,
+        "sonst": 6.4
+      }
+    },
+    {
+      "gruppe": "60–65%",
+      "zufluss": 146.86,
+      "abgaben": 91.75,
+      "einkommen": {
+        "lohn": 124.08,
+        "gewerbe_vv": 7.22,
+        "kap_ertrag": 4.06,
+        "erbschaften": 8.0,
+        "transfers": 3.5
+      },
+      "steuern": {
+        "mwst": 17.6,
+        "est": 19.64,
+        "kv_pv": 47.25,
+        "kap_st": 0.48,
+        "erbe_st": 0.0,
+        "sonst": 6.78
+      }
+    },
+    {
+      "gruppe": "65–70%",
+      "zufluss": 161.8,
+      "abgaben": 101.26,
+      "einkommen": {
+        "lohn": 133.48,
+        "gewerbe_vv": 9.88,
+        "kap_ertrag": 5.46,
+        "erbschaften": 10.0,
+        "transfers": 2.98
+      },
+      "steuern": {
+        "mwst": 18.88,
+        "est": 24.99,
+        "kv_pv": 49.5,
+        "kap_st": 0.72,
+        "erbe_st": 0.0,
+        "sonst": 7.17
+      }
+    },
+    {
+      "gruppe": "70–75%",
+      "zufluss": 178.93,
+      "abgaben": 111.71,
+      "einkommen": {
+        "lohn": 142.88,
+        "gewerbe_vv": 13.68,
+        "kap_ertrag": 7.42,
+        "erbschaften": 12.5,
+        "transfers": 2.45
+      },
+      "steuern": {
+        "mwst": 20.8,
+        "est": 30.35,
+        "kv_pv": 51.75,
+        "kap_st": 1.0,
+        "erbe_st": 0.0,
+        "sonst": 7.81
+      }
+    },
+    {
+      "gruppe": "75–80%",
+      "zufluss": 198.61,
+      "abgaben": 122.95,
+      "einkommen": {
+        "lohn": 154.16,
+        "gewerbe_vv": 16.72,
+        "kap_ertrag": 9.38,
+        "erbschaften": 16.25,
+        "transfers": 2.1
+      },
+      "steuern": {
+        "mwst": 22.72,
+        "est": 37.13,
+        "kv_pv": 53.25,
+        "kap_st": 1.4,
+        "erbe_st": 0.0,
+        "sonst": 8.45
+      }
+    },
+    {
+      "gruppe": "80–85%",
+      "zufluss": 224.62,
+      "abgaben": 135.82,
+      "einkommen": {
+        "lohn": 165.44,
+        "gewerbe_vv": 24.7,
+        "kap_ertrag": 11.48,
+        "erbschaften": 21.25,
+        "transfers": 1.75
+      },
+      "steuern": {
+        "mwst": 24.96,
+        "est": 44.63,
+        "kv_pv": 54.75,
+        "kap_st": 2.2,
+        "erbe_st": 0.06,
+        "sonst": 9.22
+      }
+    },
+    {
+      "gruppe": "85–90%",
+      "zufluss": 261.35,
+      "abgaben": 150.06,
+      "einkommen": {
+        "lohn": 178.6,
+        "gewerbe_vv": 36.1,
+        "kap_ertrag": 14.0,
+        "erbschaften": 31.25,
+        "transfers": 1.4
+      },
+      "steuern": {
+        "mwst": 27.2,
+        "est": 51.77,
+        "kv_pv": 57.0,
+        "kap_st": 3.28,
+        "erbe_st": 0.19,
+        "sonst": 10.62
+      }
+    },
+    {
+      "gruppe": "90–95%",
+      "zufluss": 327.04,
+      "abgaben": 170.98,
+      "einkommen": {
+        "lohn": 191.76,
+        "gewerbe_vv": 68.4,
+        "kap_ertrag": 21.0,
+        "erbschaften": 45.0,
+        "transfers": 0.88
+      },
+      "steuern": {
+        "mwst": 30.4,
+        "est": 64.26,
+        "kv_pv": 56.25,
+        "kap_st": 6.0,
+        "erbe_st": 0.63,
+        "sonst": 13.44
+      }
+    },
+    {
+      "gruppe": "95–100%",
+      "zufluss": 626.22,
+      "abgaben": 178.12,
+      "einkommen": {
+        "lohn": 235.0,
+        "gewerbe_vv": 180.12,
+        "kap_ertrag": 79.0,
+        "erbschaften": 131.75,
+        "transfers": 0.35
+      },
+      "steuern": {
+        "mwst": 33.6,
+        "est": 35.7,
+        "kv_pv": 54.0,
+        "kap_st": 24.0,
+        "erbe_st": 11.62,
+        "sonst": 19.2
+      }
+    }
+  ]
+}
