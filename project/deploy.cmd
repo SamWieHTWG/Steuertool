@@ -37,6 +37,7 @@ for /d %%d in ("%WORKTREE_DIR%\*") do (
 
 echo Copying build output...
 robocopy "%BUILD_DIR%" "%WORKTREE_DIR%" /E /NFL /NDL /NJH /NJS
+echo. > "%WORKTREE_DIR%\.nojekyll"
 if errorlevel 8 (
     echo Copy failed.
     git -C "%REPO_ROOT%" worktree remove "%WORKTREE_DIR%" --force
